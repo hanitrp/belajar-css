@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Padding Border Box</title>
+	<link rel="stylesheet" type="text/css" href="PaddingStyle.css">
+
+</head>
+
+<body>
+
+	<h1 style="color: maroon">Padding</h1>
+	<p>Definisi : area transparan di dalam kotak (antara conten dan border)</p>
+<p>Padding ga bisa pakai auto & negativ</p>
+
+	<div class="satu">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+<img src="50px.png">
+
+<hr>
+
+<h2>Padding bisa ubah element hati hati!</h2>
+<p>misal padding 25px.<br>
+ukuran kotak bisa berubah yang awal 300*300 tambah pading 25+25 =50 -> 300+50 === ukuran kotak jadi 350*350<br><br>
+klik kanan pilih inspect untuk lihat struktur box ini</p>
+
+<div class="dua">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+<hr>
+<hr>
+<br>
+
+<h1 style="color: maroon">Border</h1>
+<p>Definisi : batas disekeliling content dan padding</p>
+<br>
+
+<h4>1. Contoh dibawah border yang berwarna aqua</h4>
+
+<div class="tiga">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+<hr>
+
+<br>
+<h2>Style Border :</h2>
+<ol>
+	<li>solid : garis lurus tebal</li>
+	<li>dotted : titik putus-putus</li>
+	<li>dashed : garis putus-putus</li>
+	<li>double : garis lurus dobel</li>
+</ol>
+
+<br>
+
+<h4>2. Contoh style border</h4>
+
+<p>border-left: 10px dashed navy; <br>
+	border-right: 10px dotted olivedrab; <br>
+	border-bottom: 8px double midnightblue; <br>
+	border-top: 8px solid moccasin ;</p>
+
+<div class="empat">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+<h2>Total Dimensi = Width/Height + Padding + Border</h2>
+<br>
+<hr><hr>
+
+<h1>BOX-SIZING</h1>
+<p>border and padding segimana total dimensi bakal ikutin width/height nya</p>
+<br><br>
+<p>sintaks = box-sizing: border-box;</p>
+
+<div class="lima">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+</body>
+</html>

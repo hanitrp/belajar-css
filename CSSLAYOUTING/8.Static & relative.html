@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Position</title>
+	<link rel="stylesheet" type="text/css" href="8.css">
+
+</head>
+
+<body>
+
+	<h1>Posisition</h1>
+	<h3>Static, Relative, Absolute, Fixed</h3>
+
+	<br><br><br>
+
+	<h3>1. STATIC</h3>
+	<P>Jika kita tidak memberi properti posisi pada elemen, maka nilai default dari elemen itu static </P>
+
+	<h3>2. Relative</h3>
+	<p>Posisinya kaya naik gt kedepan<br>contoh: si violet</p>
+
+	<div class="satu"> </div>
+	<div class="dua"> </div>
+	<div class="tiga"> </div>
+
+
+<br><hr><br>
+
+	<h3>3. Absolute</h3>
+	<p>Ketika kita menggerakan elemen dengam posisi absolute (properti :top, left, bottom, right) , ruang yg ditempati violet dianggap tidak ada dan elemen selanjutnya bakal anggap violet gaada trus diisi<br><br>Ketika kita gerakin elemen yg posisi absolute itu, elemen itu  akan bergerak relatif thdp posisi elemen parent-nya (elemen body), selama elemen parent juga posisinya non-static<br><br>
+		Contoh : si violet (absolute) <br><br>
+	container (sibiru) dikasi posisi relative supaya posisinya ikut violet
+	</p>
+
+<div class="container">
+	<div class="empat"> </div>
+	<div class="lima"> </div>
+	<div class="six"> </div>
+</div>
+	
+	<br><br><br><hr>
+
+	<h3>4.Fixed</h3>
+	<p>Mirip absolute tapii ketika kita mengeerakan elemen dengan posisi fixed, elemen akan bergerak relatif terhadap window(browser) <br><br>
+	Dengan kata lain elemen akan terkunci dan tidak bergerak dr posisinya klo halaman discroll</p>
+	<p>contoh di halaman ini : <a href="8.4.fixed.html">disini</a></p>
+
+
+</body>
+</html>

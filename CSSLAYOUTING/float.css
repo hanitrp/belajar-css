@@ -1,0 +1,159 @@
+.container {
+	width: 600px ;
+	border: 1px solid black ;
+	margin : auto;
+	padding: 5px ;
+}
+
+.satu, .dua, .tiga {
+	width: 100px;
+	height: 100px;
+}
+
+.satu {
+	background-color: salmon;
+	text-align: center;
+}
+
+.dua {
+	background-color: skyblue ;
+	float: right ;
+	}
+
+.tiga {
+	background-color: olive;
+}
+
+ul li {
+	padding: 5px ;
+}
+
+.C-1{
+	width: 600px ;
+	border: 1px solid black ;
+	margin : auto;
+	padding: 5px ;
+}
+
+.C-1 img {
+	width: 150px;
+	height: 150px;
+	float: left ;
+	margin: 5px;
+}
+
+.C-2 {
+	width: 600px ;
+	border: 1px solid #333;
+	margin: auto;
+	padding: 5px;
+}
+
+.kotak {
+	width: 80px ;
+	height: 80px  ;
+	background-color: salmon ;
+	color: white ;
+	text-align: center ;
+	line-height: 80px ;
+	font-size: 30px ;
+	float: right ;
+}
+
+.clear1 {
+	clear: right ;
+
+}
+
+.C-3 {
+	width: 800px ;
+	border: 1px solid #333;
+	margin: auto;
+	padding: 5px;
+}
+
+.kiri {
+	width: 150px ;
+	height : 200px;
+	background-color : cadetblue;
+	float: left ;
+
+}
+
+.tengah {
+	width: 500px ;
+	height : 200px;
+	background-color: cornflowerblue ;
+	float: left ;
+
+
+}
+
+.kanan {
+	width: 150px ;
+	height : 200px;
+	background-color: midnightblue ;
+	float: left ;
+
+}
+
+
+.C-4 {
+	width: 800px ;
+	border: 1px solid #333;
+	margin: auto;
+	padding: 5px;
+}
+
+.kiri {
+	width: 150px ;
+	height : 200px;
+	background-color : cadetblue;
+	float: left ;
+
+}
+
+.tengah {
+	width: 500px ;
+	height : 200px;
+	background-color: cornflowerblue ;
+	float: left ;
+
+
+}
+
+.kanan {
+	width: 150px ;
+	height : 200px;
+	background-color: midnightblue ;
+	float: left ;
+
+}
+
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}

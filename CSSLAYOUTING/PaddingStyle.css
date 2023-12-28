@@ -1,0 +1,52 @@
+.satu {
+	width : 300px ;
+	height: 300px ;
+	background-color: magenta;
+	margin : auto ;
+	padding-left: 50px;
+}
+
+img {
+	width: 480px;
+	height: 270px ;
+	margin: 40px auto 10px;
+}
+
+.dua {
+	width : 300px ;
+	height: 300px ;
+	background-color: magenta;
+	margin : auto;
+	padding: 25px ;
+
+}
+
+.tiga {
+	width : 300px ;
+	height: 300px ;
+	background-color: magenta;
+	margin : auto;
+	padding: 25px ;
+	border: 5px solid aqua;
+}
+
+.empat {
+	width : 300px ;
+	height: 300px ;
+	background-color: magenta;
+	margin : auto;
+	padding: 25px ;
+	border-left: 10px dashed navy;
+	border-right: 10px dotted olivedrab;
+	border-bottom: 8px double midnightblue;
+	border-top: 8px solid moccasin ;
+}
+
+.lima {
+	width: 500px;
+	height: 500px;
+	box-sizing: border-box;
+	background-color: yellowgreen ;
+	padding: 5px;
+	border : 2px double midnightblue;
+}

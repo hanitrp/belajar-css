@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Float</title>
+	<link rel="stylesheet" type="text/css" href="float.css">
+
+</head>
+
+<body>
+
+	<h1>Selemat Datang di Pertemuan Float</h1>
+	<p>none<br>left<br>right</p>
+
+<br><hr>	
+
+<!-- Definisi -->
+
+	<h2>Normal Flow VS Out-of Flow</h2>
+	<p> Normal Flow : default (rata kiri vertikal kebawah)<br>
+		Out-of Flow : Mengatur rata nya bisa none, right, left ini lah float
+
+<br><br><hr>
+
+
+
+<!-- CONTOH FLOAT -->
+
+<h4>Contoh 1 :</h4>
+<p>class 2 warna biru diberi sintaks [float : right; ]</p>
+<p>dia akan berada di sebelah kanan pembungkusnya (class container)</p>
+
+<div class="container">
+	<div class="satu"></div>
+	<div class="dua"></div>
+	<div class="tiga"></div>
+</div>
+
+<br><br><hr>
+
+
+
+
+<!-- PENGGUNAAN FLOAT -->
+
+<h2>Penggunaan properti FLOAT</h2>
+	
+	<ul>
+		<li>Text Wrapping : membuat teks mengelilingi gambar / elemen lain</li>
+		<li>Image Galery : membuat serangkaian gambar menjadi galeri </li>
+		<li>Multi-Column Layout : membuat halaman memiliki beberapa kolom</li>
+		<li>dll</li>
+	</ul>
+	
+<br><br><hr>
+
+
+
+<!-- CONTOH PENGGUNAAN FLOAT -->
+
+<h4>1. TEXT WRAPPING</h4>
+
+<div class="C-1">
+	<img src="hani.jpg" alt="logo">
+	<p>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+
+</div>
+
+<br><br><hr>
+
+
+
+<h4>2. Image Galery</h4>
+
+<div class="C-2">
+	<div class="kotak">1</div>
+	<div class="kotak">2</div>
+	<div class="kotak">3</div>
+	<div class="kotak">4</div>
+	<div class="kotak">5</div>
+	<div class="kotak">6</div>
+	<div class="kotak">7</div>
+	<div class="kotak">8</div>
+	<div class="kotak">9</div>
+	<div class="kotak">10</div>
+
+	<div class="clear1"></div>
+
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+</div>
+
+
+
+<br><br><br><hr>
+
+
+
+
+<h2>3.Multi-Column Layout</h2>
+
+<div class="C-3">
+	<div class="kiri"></div>
+	<div class="tengah"></div>
+	<div class="kanan"></div>
+
+</div>
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><hr>
+
+
+
+<h1>Clear</h1>
+<p>Untuk menghentikan float</p>
+<p>Contoh 2. image galeri menggunakan clear di antara div kotak dan p</p>
+<p>Contoh 3 tidak mengguunakan clear, konten jadi diluar container (kotak)</p>
+
+
+<br><br><br><hr>
+
+
+<h2>Teknik Mikro Clear</h2>
+<p>gak perlu tambahin elemen div di html kita, tambahin tag di web <a href="https://nicolasgallagher.com/micro-clearfix-hack/" target="_blank">ClearFix</a><br> ke paling bawah script css kita</p>
+
+<p>JANLUP Tambahin "cf" di class yg mau kita clear floatnya</p>
+
+<h4>Contoh Clear Fix</h4>
+
+<div class="C-4 cf">
+	<div class="kiri"></div>
+	<div class="tengah"></div>
+	<div class="kanan"></div>
+
+</div>
+
+
+
+
+
+
+</body>
+</html>
