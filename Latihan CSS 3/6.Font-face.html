@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Font-Face</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+		h1{
+			font-size: 100px;
+			text-align: center;
+			font-family: 'Playfair Display', serif;
+		}
+
+
+	@font-face {
+		font-family: "Quick-Sand";
+		src : url('Quicksand_Dash.otf') format('truetype');
+	}	
+
+
+	.two h1 {
+		font-size: 100px;
+		text-align: center;
+		font-family: "Quick-Sand, arial";
+	}
+
+
+	@font-face {
+    font-family: 'cantarellboldoblique';
+    src: url('Cantarell-BoldOblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+	h2 {
+		font-size: 100px;
+		text-align: center;
+		font-family: "cantarellboldoblique";
+
+	}
+
+
+	@font-face {
+    font-family: 'quicksandlight_italic';
+    src: url('quicksand-lightitalic-webfont.woff2') format('woff2'),
+         url('quicksand-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+	.three h1 {
+		font-size: 100px;
+		text-align: center;
+		font-family: "quicksandlight_italic";
+	}
+
+	</style>
+
+
+</head>
+
+
+<body>
+<H1>FONT FACE</H1>
+
+<h1 class="two">@font-face [QS]</h1>
+
+<h2>@font-face (vendor) </h2>
+
+<h3>extend woff lebih cepat darri otf</h3>
+
+<p>kita bisa konversi otf ke woff pake generator di link berikut : <a href="https://www.fontsquirrel.com/fonts/cantarell" target="_blank">disini</a></p>
+
+<h1 class="three">BISA KONVERSI</h1>
+
+
+
+</body>
+</html>

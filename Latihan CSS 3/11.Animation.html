@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Animation</title>
+
+	<style>
+		/*
+		Animation : [name] [duration] [timing-function] [delay] [iteration-count] [direction] [fill-mode] [play-state] 
+		
+		
+
+		name : bebas
+		duration : berapa s
+		function : ease | ease-in | ease-out | esase-in-out | cubic-bezier
+		delay : delay berapa s
+		iteration-count : berapa kali interksi (angka  | infinite)
+		direction : normal | reverse | alternate | alternate-reverse
+		fill-mode : none | forwards (biar posisinya berhenti di akhir interaksi) | backwards | both
+		play-state : runnig | paused
+
+
+		*/
+
+		body {
+			height: 5000px;
+		}
+
+
+		.kotak1{
+			width: 250px;
+			height: 250px;
+			background-color: mediumaquamarine;
+			text-align: center;
+			line-height: 250px;
+			animation: kotak1 3s ease 1.5 alternate both ;
+
+		}
+
+
+		@keyframes kotak1 {
+			0% {
+				width: 250px;
+			}
+
+			50% {
+				width: 500px;
+				background-color: lightpink;
+			}
+
+
+			100% {
+				width: 800px;
+				height: 500px;
+			}
+		}
+
+		
+
+
+	</style>
+
+
+</head>
+
+<body>
+
+	<h1 align="center">Animation</h1>
+
+	<img src="animation1.png">
+	<br><br>
+
+	<h2>Sintaks style nya (shorthand) : </h2>
+	<h1>Animation : [name] [duration] [timing-function] [delay] [iteration-count] [direction] [fill-mode] [play-state] </h1>
+	<ul>
+		<li>name : bebas</li><br>
+		<li>duration : berapa s</li><br>
+		<li>function : ease | ease-in | ease-out | esase-in-out | cubic-bezier</li><br>
+		<li>delay : delay berapa s</li><br>
+		<li>iteration-count : berapa kali interksi (angka  | infinite)</li><br>
+		<li>direction : normal | reverse | alternate (paling smooth) | alternate-reverse</li><br>
+		<li>fill-mode : none | forwards | backwards | both</li><br>
+		<li>play-state : runnig | paused</li><br>
+	</ul>
+	
+
+
+	<br><br><hr>
+	<h2>Implementasi :</h2>
+
+	<div class="kotak1">Kotak 1
+		<br>sintaks > animation: kotak1 3s ease 1.5 alternate both ;</div>
+
+</body>
+</html>

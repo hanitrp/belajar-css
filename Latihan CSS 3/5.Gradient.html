@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Gradient</title>
+	<style>
+		div {
+
+			width: 600px;
+			height: 300px;
+			margin: 50px auto;
+			background-color: salmon;
+
+		}
+
+		.satu {
+			background-image: linear-gradient(red, #F0D606,rgba(255,255,0,1), green);
+
+		}
+
+		.dua {
+			background-image: linear-gradient(45deg,red,green);
+		}
+
+
+		.tiga{
+			background-image: linear-gradient(to bottom right, red, green) ;
+		}
+
+		.empat{
+			background-image: linear-gradient(to right, red 63%, green 80%);
+		}
+
+
+		.lima  {
+			background-image: radial-gradient(red,green,blue);
+		}
+
+		.six {
+			background-image: radial-gradient(circle, red, blue);
+		}
+
+
+	</style>
+</head>
+
+<body>
+
+<h1 style="text-align: center;">Gradient</h1>
+
+<h2>1. Linear Gradient</h2>
+<h3>Sintaks sederhana : </h3>
+<p>background-image : linear-gradient(red, #F0D606,rgba(255,255,0,1), green);</p>
+
+<div class="satu"></div>
+
+<br>
+<h3>Sintaks Lengkap (sudut) :</h3>
+<p>background-image: linear-gradient(45deg,red,green);</p>
+
+<div class="dua"></div>
+
+
+<br>
+
+<h3>ARAH : </h3>
+<p>value :
+<br>to bottom : dari atas ke bawah<br>
+to top : dari bawah ke atas<br>
+to left<br>
+to right<br><br>
+kalo diagonal :<br>
+<br>to left top : dari kanan bawah ke kiri atas<br>
+to left bottom : dari kanan atas ke kiri bawah<br>
+to right top<br>
+to right bottom</p>
+<h3>Sintaks Lengkap (arah) :</h3>
+<p>background-image: linear-gradient(to bottom right,red,green);</p>
+
+<div class="tiga"></div>
+
+
+<h3>Sintaks Color Stop</h3>
+<p>background-image: linear-gradient(to right, red 63%, green 80%);</p>
+
+<div class="empat"></div>
+
+<br><br><br><br>
+
+<h2>2. Radial Gradient</h2>
+
+<h3>Sintaks singkat :</h3>
+<p>background-image : radial gradient(red, green,blue);</p>
+
+<div class="lima"></div>
+
+<h3>Sintaks Lengkap :</h3>
+<p> radial-gradient ([tipe] [jangkauan] at [posisis-y] [posisis-x] [warna 1] [warna 2], ..., ...,[warna n]) ;
+<br><br>
+Tipe : elipse , circle
+<br> 
+Jangkauan : jarak dari pusat gradient ke sisi terluarnya</p>
+
+<p>Cotoh TIPE bulat/circle</p>
+
+<div class="six"></div>
+
+
+</body>
+</html>

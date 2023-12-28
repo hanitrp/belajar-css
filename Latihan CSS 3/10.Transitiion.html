@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Transition</title>
+
+	<style>
+		body {
+			margin: 0;
+			padding: 10px;
+		}
+
+		.container{
+			width: 1000px;
+			margin: 10px auto;
+			border: 5px solid black;
+
+		}
+
+		.kotak {
+			width: 100px;
+			height: 100px;
+			background-color: aquamarine;
+			text-align: center;
+			line-height: 100px;
+			margin: 10px  0;
+			transition: 3s;
+
+		}
+
+		.container:hover .kotak {
+			transform: rotate(360deg);
+			margin-left: 900px;
+			background-color: midnightblue;
+
+		}
+
+
+		.func {
+			width: 1200px;
+			margin: 10px auto;
+			border: 5px solid black;
+		}
+
+		.satu { transition-timing-function: ease ; }
+		.dua { transition-timing-function: ease-in ;}
+		.tiga {transition-timing-function: ease-out ;}
+		.empat {transition-timing-function: ease-in-out ;}
+		.lima {transition-timing-function: linear;}
+		.enam {transition-timing-function: cubic-bezier(0,-0.51, 0.56,-0.24);}
+
+		.func:hover .kotak {
+			transform: rotate(90deg);
+			margin-left: 1100px;
+			background-color: midnightblue;
+		}
+
+
+
+
+		.delay {
+			width: 1200px;
+			margin: 10px auto;
+			border: 5px solid black;
+		}
+
+		.tujuh {transition: margin-left 3s ,transform 3s 1.5s ,background-color 0.5s 3s}
+
+		.delay:hover .kotak {
+			transform: rotate(180deg);
+			margin-left: 1100px ;
+			background-color: midnightblue;
+
+		}
+
+
+	</style>
+
+</head>
+
+<body>
+
+
+	<h1 align="center">TRANSITION</h1>
+
+	<h2>Pengertian</h2>
+	<p>Mengubah nilai dari property HTML secara smooth</p> <br>
+
+
+	<h2>Transition VS Animation</h2>
+
+	<p>Transisi : berubah 1 kali pergerakan</p>
+
+	<p>Animasi : berubah berkali-kali</p>
+	<br>
+
+	<h2>Syntaks</h2>
+
+	<p>transition : [property] s/ms [fungsi] [delay] ; </p>
+	<br>
+
+
+	<h2>Implementasi</h2>
+
+	<div class="container">
+	<div class="kotak"></div>
+	</div>
+	<br><br><br><hr>
+
+
+	<h3>[Fungsi]</h3>
+	<h4>Timing Function</h4>
+	<ul>
+		<li>ease (defaultnya)</li>
+		<li>ease-in</li>
+		<li>ease-out</li>
+		<li>ease-in-out</li>
+		<li>linear</li>
+		<li>cubic-bezier (w,x,y,z)</li>
+	</ul>
+
+	<div class="func">
+		<div class="kotak satu">ease</div>
+		<div class="kotak dua">ease-in</div>
+		<div class="kotak tiga">ease-out</div>
+		<div class="kotak empat">ease-in-out</div>
+		<div class="kotak lima">linear</div>
+		<div class="kotak enam">cubic-bazier</div>
+	</div>
+	<br><br><br><hr>
+
+
+	<h4>[DELAY]</h4>
+
+	<div class="delay">
+		<div class="kotak tujuh">Delay</div>
+	</div>
+	
+
+</body>
+</html>

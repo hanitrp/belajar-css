@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Opacity</title>
+	<style>
+		
+		body {
+			background-image: url(background.png);
+
+		}
+
+		.satu {
+			width: 250px;
+			height: 250px;
+			background-color: rgb(250,102, 0, 0.6);
+			position: relative;
+
+		}
+
+		.dua {
+			width: 50px;
+			height: 50px;
+			background-color: hsla(24, 100%, 68%, 0.8);
+			border : 5px solid red;
+			right: -50px;
+			position: absolute;
+		}
+
+
+		.tiga {
+			width: 250px ;
+			height : 250px;
+			margin:  50px auto ;
+			background-image: url(hani.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			opacity: 0.8;
+		}
+
+		.empat {
+			width: 250px;
+			height: 250px;
+			margin : 50px auto;
+			background-color: #484848;
+			box-shadow: 5px 5px 10px red;
+			text-align: center;
+			line-height: 250px;
+
+		}
+
+		.lima {
+			width: 250px;
+			height: 250px;
+			margin : 50px auto;
+			background-color: #488488;
+			box-shadow: 0px 0px 0px 10px pink;
+			text-align: center;
+			line-height: 250px;
+			text-overflow: 
+
+		}
+
+		.enam {
+			width: 250px;
+			height: 250px;
+			background-color: aqua;
+			margin : 50px auto;
+			box-shadow:0px 40px 5px -20px rgba(0,0,0,.75);
+			transition: .3s ;
+
+
+		}
+
+		div.enam:hover {
+			box-shadow: 0px 80px 5px -40px rgba(0,0,0,.4);
+			margin-top: 40px;
+		}
+
+		.tujuh {
+			width: 500px;
+			height: 250px;
+			background-color: olive;
+			margin : 50px auto ;
+			box-shadow: inset 0 0 10px 10px rgba(0,0,0,.5);
+			text-align: center;
+			line-height: 250px;
+		}
+
+		.kotak {
+			width: 800px;
+			border : 1px solid black;
+			height: 200px;
+			margin: auto;
+			padding: 5px;
+
+		}
+
+		.delapan {
+			width: 150px;
+			height: 150px;
+			background-color: yellow;
+			box-shadow: 5px 5px 5px rgba(255, 0, 0,.5), -5px -5px 5px rgba(0,0,255,.5);
+			float: left;
+			margin-right: 30px;
+			margin-top: 25px;
+		}
+
+		.sembilan {
+			width: 150px;
+			height: 150px;
+			background-color: blue ;
+			box-shadow: 0 0 0 5px red, 0 0 0 10px yellow, 0 0 0 15px magenta;
+			float: left;
+			margin-top: 25px;
+			
+		}
+
+		.clear {
+			clear: left;
+		}
+
+		h1.h1 {
+			background-color: #3a50d9;
+			color: #e0eff2 ; 
+			font-size: 100px;
+			font-family: georgia;
+			text-align: center;
+			font-weight: bold;
+			font-style: italic;
+			text-shadow: -4px 3px 0 #3a50d9,
+			-14px 7px 0 #0a0e27 ;
+
+		}
+
+		.coba {
+		height: 300px;
+		text-align: center;
+		line-height: 300px;
+		color: white;
+		margin: 100px auto;
+		background-color: black;
+		font-family: arial;
+		font-weight: bold;
+		font-size: 100px;
+		text-shadow: 0 0 20px #fefcc9,
+		10px -10px 30px #feec85,
+		-20px -20px 40px #ffae34,
+		20px -40px 50px #ec760c,
+		-20px -60px 60px #cd4606,
+		0 -80px 70px #973716,
+		10px -90px 80px #451b0e;
+
+	}
+
+
+	</style>
+
+</head>
+
+<body>
+
+
+<h4>1. COLOR OPACITY : A.RGBA (red,blue,green,alpha) & B.HSLA (hue, saturation, lighting, alpha</h4>
+<p>yang besar pake rgba(250,102, 0, 0.6);<br>border merah pake hsla(24, 100%, 68%, 0.8);</p>
+	<div class="satu">
+		<div class="dua"></div>
+	</div>
+
+
+<br><br><hr>
+
+
+<h4>2. Opacity Gambar</h4>
+<p>bisa di pake di img / elemen lain</p>
+<div class="tiga"></div>
+
+
+<br><br><hr>
+
+
+<h4>3.Box-Shadow</h4>
+<p>1. 4 nilai = box-shadow : x(kanan/kiri)  y(atas/bawah) blur color
+<br>2. 6 nilai = box-shadow :  inset  x  y blur spreed(size) color
+<br>Fungsi Inset : bayangan jadi kedalam</p>
+
+<div class="empat">Nilai : 5px 5px 10px red; </div>
+<div class="lima">box-shadow: 0px 0px 0px 10px pink;
+</div>
+
+<h5>Cara pakai box-shadow biar makin asik :</h5>
+<h5>CARA 1 : Melayang </h5>
+<p>.enam { <br>
+			width: 250px;<br>
+			height: 250px;<br>
+			background-color: aqua;<br>
+			margin : 50px auto;<br>
+			box-shadow:0px 40px 5px -20px rgba(0,0,0,.75);<br>
+			transition: .3s ;<br>
+	
+
+		}<br><br>
+
+		div.enam:hover {<br>
+			box-shadow: 0px 80px 5px -40px rgba(0,0,0,.4);<br>
+			margin-top: 40px; <br>
+		}</p>
+
+<div class="enam"></div>
+
+<br>
+
+<h5>CARA 2 : Bayangan dalam kotak </h5>
+<p>Menggunakan INSET</p>
+
+<div class="tujuh">box-shadow: inset 0 0 10px 10px rgba(0,0,0,.5);</div>
+
+
+<br>
+
+<h5>CARA 3 : Multiple Shadow</h5>
+<p>1. YELLOW <br>
+box-shadow: 5px 5px 5px rgba(255, 0, 0,.5), -5px -5px 5px rgba(0,0,255,.5);</p>
+
+<p>2. BLUE : multiple border <br>
+	box-shadow: 0 0 0 5px red, 0 0 0 10px yellow, 0 0 0 15px magenta;
+</p>
+
+<div class="kotak">
+<div class="delapan"></div>
+<div class="sembilan"></div>
+<div class="clear"></div>
+</div>
+
+<br><br><hr>
+
+<h4>4. Text Shadow</h4>
+
+<h1 class="h1">HALO DUNIA</h1>
+<p>Contoh lebih detail : <a href="4.Text-Shadow.html">KLIK DISINI</a></p>
+
+<div class="coba">COBA-Coba</div>
+
+</body>
+</html>

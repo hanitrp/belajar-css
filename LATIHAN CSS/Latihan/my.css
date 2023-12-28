@@ -1,0 +1,27 @@
+tr#lightblue td {
+	background-color: lightblue ;
+}
+
+tr#lightblue td.hijau {
+	background-color: lightgreen ;
+}
+
+tr#lightblue td.orange {
+	background-color: orange ;
+}
+
+tr#darkblue td {
+	background-color: blue;
+}
+
+tr#darkblue td.blue {
+	background-color: blue;
+}
+
+tr#darkblue td.pink {
+	background-color: pink;
+}
+
+tr#yellow td {
+	background-color: yellow;
+}

@@ -1,0 +1,10 @@
+Animation
+
+name : bebas
+duration : berapa s
+function : ease | ease-in | ease-out | esase-in-out | cubic-bezier
+delay : delay berapa s
+iteration-count : berapa kali interksi (angka  | infinite)
+direction : normal | reverse | alternate | alternate-reverse
+fill-mode : none | forwards | backwards | both
+play-state : runnig | paused

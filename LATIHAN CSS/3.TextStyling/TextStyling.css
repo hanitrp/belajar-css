@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Text Styling</title>
+</head>
+
+<body>
+
+<h1>Belajar text styling</h1>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<h2>COLOR</h2>
+<ol type="I">
+	<li>nama warna : blue, segreen, dll</li>
+	<li>Hexadecimal : #ffffff</li>
+	<li>rgb : contoh cara nulis = rgb(180, 50, 210)</li>
+</ol>
+
+<h2>Text-align</h2>
+<ul type="circle">
+	<li>left = kiri</li>
+	<li>right</li>
+	<li>center</li>
+	<li>justify = rata kiri kanan</li>
+</ul>
+
+<h2>Text indent</h2>
+<p>Memberikan indentasi , satuannya px , %</p>
+
+<h2>Text-decoration</h2>
+<ul type="square">
+	<li>None = menghilangkan garis bawah pd link contoh :</li>
+	<a href="#">Linnk ini tidak ada garis bawahnya</a>
+	<li>underline = garis baawah </li>
+	<li>overline = garis atas </li>
+	<li>Line-through = coret </li>
+</ul>
+
+<h2>text-transform</h2>
+<ul type="square">
+	<li>none</li>
+	<li>Lowwercase</li>
+	<LI>uppercase</LI>
+	<li>capitalize</li>
+</ul>

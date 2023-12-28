@@ -1,0 +1,20 @@
+h1 {
+	font-family: verdana, sans-serif ;
+	font-size: 500% ;
+	font-variant: small-caps;
+	font-style: italic;
+
+}
+
+
+h2 {
+	font : italic small-caps 30px arial,helvetica, sans-serif;
+}
+
+p {
+	font-family: georgia , sans-serif ;
+	font-weight: bold;
+	line-height: 50px ;
+}
+
+

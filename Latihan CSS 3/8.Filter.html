@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Filter</title>
+
+	<style>
+	 img {
+	 	width: 250px;
+	 	height: 250px;
+	 }
+
+	 .one {
+	 	filter: drop-shadow(5px 5px 5px magenta) grayscale(50%);
+	 }
+	</style>
+</head>
+
+<body>
+
+
+
+<h1>Filter</h1>
+<p>seperti filter pada umumnya di apk edit or instagram</p>
+
+<h2>Type Filter</h2>
+<ul type="none">
+	<li>blur (px)</li>
+	<li>brightness (angka | % )</li>
+	<li>contrast (angka | % )</li>
+	<li>saturate (angka | % )</li>
+	<li>grayscale (angka | % ) => bw filter sg</li>
+	<li>sepia (angka | % )</li>
+	<li>hue-rotate (deg)</li>
+	<li>invert (angka | % )</li>
+	<li>opacity (angka | % )</li>
+	<li>drop-shadow ( sama kayak box-shadow )</li>
+</ul>
+<br>
+<hr>
+
+
+<h3>1. Contoh Blur</h3>
+<p>sintaks => filter : blur(3px);</p>
+<img src="hani.jpg" style="filter : blur(3px);">
+
+<br><hr><br>
+
+<h3>2. Contoh brightness</h3>
+<p>sintaks => filter : brightness(1.8);</p>
+<img src="hani.jpg" style="filter : brightness(1.8);">
+
+<br><hr><br>
+
+<h3>3. Saturate</h3>
+<p>defaultnya 100% saturate itu nimbulin warna gambar</p>
+<p>sintaks => filter : saturate(180%);</p>
+<img src="hani.jpg" style="filter : saturate(180%);">
+
+<br><hr><br>
+
+<h3>4. Grayscale</h3>
+<p>defaultnya 0 saturate itu warna abu-abu lawan nya saturate</p>
+<p>sintaks => filter : grayscale(70%);</p>
+<img src="hani.jpg" style="filter : grayscale(70%) ;">
+
+<br><hr><br>
+
+<h3>5. Sepia</h3>
+<p>defaultnya 0 saturate itu warna kekuningan </p>
+<p>sintaks => filter : sepia(70%);</p>
+<img src="hani.jpg" style="filter : sepia(70%) ;">
+
+<br><hr><br>
+
+<h3>6. Hue-Rotate</h3>
+<p>merubah roda warna [deg itu derajat]</p>
+<p>sintaks => filter : hue-rotate(50deg) ;</p>
+<img src="hani.jpg" style="filter : hue-rotate(50deg) ;">
+
+<br><hr><br>
+
+<h3>7. Invert</h3>
+<p>nilai defaultnya 0 ini kayak efek negatif film</p>
+<p>sintaks => filter : invert(75%) ;</p>
+<img src="hani.jpg" style="filter : invert(75%) ;">
+
+
+<br><hr><br>
+
+<h3>8. Opacity</h3>
+<p>nilai defaultnya 1 ini kayak efek negatif film</p>
+<p>sintaks => filter : opacity(0.45) ;</p>
+<img src="hani.jpg" style="filter : opacity(0.45) ;">
+
+
+<br><hr><br>
+
+<div class="one">
+<h3>9. drop-shadow</h3>
+<p>implementasinya bisa 2 bayangan sekaligus (img & text) <br> jadi ga satu satu box-shadow & text-shadow</p>
+<p>sintaks => filter: drop-shadow(5px 5px 5px magenta) grayscale(50%);</p>
+<img src="semangka1.png">
+</div>
+
+</body>
+</html>

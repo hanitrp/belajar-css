@@ -1,0 +1,43 @@
+/* TEXT STYLING (COLOR : nama warna, rgb, hexadecimal) */
+
+h1 {
+	color : seagreen ; /* nama warna*/
+	font-size : 50px ;
+	word-spacing: 5px ;
+	}	
+
+
+h2 {
+	color : rgb(115, 80, 212) ; /*rgb*/
+	text-decoration: overline;
+	text-transform: uppercase;
+	text-align: left;
+	
+}
+
+p {
+	color : #9a7a6a ; /*Hexadecimal*/
+	text-indent : 10% ;
+	letter-spacing: 5px ;
+}
+
+	
+
+a {
+	text-decoration : none;
+	
+}
+
+
+ ol {
+ 	color: orange ;
+ 	text-transform: none;
+
+ }
+
+
+ ul {
+ 	color: rgba(255, 0, 0, 0.5);
+
+
+ }

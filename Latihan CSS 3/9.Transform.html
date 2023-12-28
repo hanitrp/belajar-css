@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Transform</title>
+
+	<style>
+		/*
+		CARA PENULISAN DAN SATUANNYA :
+
+			scale(angka), scaleX(angka), scaleY(angka)
+     		rotate(deg), rotateX(deg), rotsteY(deg)
+     		skew(deg), skewX(deg), skewY(deg)
+     		transalate(px) , transalateX(px), transalateY(px)
+		*/
+
+		div {
+			width: 150px;
+			height: 150px;
+			background-color: aquamarine;
+			transition: 1s;
+			text-align: center;
+			line-height: 75px;
+		}
+
+
+	/*SCALE*/
+
+		.kotak1 {
+			margin: 50px auto 0 ;
+		}
+
+		.kotak1:hover {
+			transform: scale(5, 0.8);
+
+		}
+
+	/*SCALE END*/
+
+
+
+	/*ROTATE*/
+
+		.dua {
+			display: inline-block;
+			margin : 50px;
+		}
+		.dua:hover {
+			transform: rotate(245deg);
+		}
+
+
+		.tiga {
+			display: inline-block;
+			margin : 50px ;
+		}
+
+		.tiga:hover {
+			transform: rotateX(220deg);
+		}
+
+
+		.empat {
+			display: inline-block;
+			margin: 50px;
+		}
+		.empat:hover {
+			transform: rotateY(90deg);
+		}
+
+		.lima {
+			display: inline-block;
+			margin :50px;
+
+		}
+
+		.lima:hover {
+			transform: rotate(45deg) rotateX(45deg) rotateY(45deg);
+		}
+
+		.enam {
+			display: inline-block;
+			margin : auto ;
+
+		}
+
+		.enam:hover {
+			transform: skewX(50deg);
+		}
+
+
+		.tujuh {
+			display: inline-block;
+			margin-left:400px ;
+
+		}
+
+		.tujuh:hover {
+			transform: translateX(-50px) translateY(-75px);
+
+		}
+
+		.semua {
+			display: inline-block;
+			margin-left:400px ;
+
+		}
+
+		.semua:hover {
+			transform: scale(3) rotate(180deg) skewY(10deg) translateX(10px);
+
+		}
+
+	</style>
+
+</head>
+
+<body>
+
+     <h1 align="center">Transform</h1>
+
+     <h2>1. Transform 2 Dimensi</h2>
+     <p>propertinya  > Transform : [fungsi] </p>
+
+     <h3>Fungsi :</h3>
+     <ul>
+     	<li>Scale : memperbesar / memperkecil elemen </li>
+     	<li>rotate : memutar elemen</li>
+     	<li>skew : membuat condong / miring elemen</li>
+     	<li>Trasnlate : mengubah posisi elemen</li>
+     </ul>
+
+     <h3>Cara Penulisan :</h3>
+     <ul>
+     	<li>scale(angka), scaleX(angka), scaleY(angka)</li>
+     	<li>rotate(deg), rotateX(deg), rotsteY(deg)</li>
+     	<li>skew(deg), skewX(deg), skewY(deg) </li>
+     	<li>transalate(px) , transalateX(px), transalateY(px)</li>
+        </ul>
+
+
+
+     <h3>Implementasi </h3>
+
+     <h4>1. Scale : kita otak atik kotak dibawah ini</h4>
+
+	<div class="kotak1"></div>
+	
+	<br><br><hr><br>
+
+
+	<h4>2. Rotate : Putar</h4>
+	<p>rotat doang sumbu ditengah</p><p>rotateX sumbu di x ya di y </p>
+
+	<div class="dua">rotate / Z</div>
+	<div class="tiga">X (horizontal)</div>
+	<div class="empat">Y (vertikal)</div>
+	<div class="lima">Gabung 3 nya</div>
+
+
+	<br><br><hr><br>
+
+
+
+	<h4>3.Skew : condong</h4>
+
+	<div class="enam"></div>
+
+	<br><br><hr><br>
+
+
+
+	<h4>4. Translate : berubah tempat</h4>
+
+	<div class="tujuh"></div>
+
+	<br><br><hr><br>
+
+
+	<div class="semua">ALL IN</div>
+
+</body>
+</html>
